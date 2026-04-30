@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kinly Privacy Policy</title>
+<style>
+  :root {
+    --ink: #1F2A44;
+    --muted: #6B7693;
+    --primary: #6BA3E5;
+    --primary-soft: #E8F1FB;
+    --border: #E6EAF2;
+    --bg: #FAFBFD;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 40px 36px;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0 0 6px;
+    letter-spacing: -0.4px;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 32px 0 10px;
+    color: var(--ink);
+    letter-spacing: -0.2px;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 18px 0 6px;
+  }
+  p { margin: 0 0 12px; }
+  ul { padding-left: 22px; margin: 0 0 14px; }
+  li { margin: 4px 0; }
+  hr {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 28px 0;
+  }
+  a { color: var(--primary); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .updated {
+    color: var(--muted);
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 24px;
+  }
+  .contact {
+    background: var(--primary-soft);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-top: 24px;
+  }
+  .contact a {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  strong { font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Kinly Privacy Policy</h1>
+<p class="updated">Last updated: April 28, 2026</p>
+
+<p>This Privacy Policy explains how Kinly ("we", "us", "the app") collects, uses, and shares information when you use the Kinly mobile application. By creating an account or joining a family in Kinly, you agree to the practices described here.</p>
+
+<p>If you have any questions, contact us at <strong><a href="mailto:privacy@gokinly.com">privacy@gokinly.com</a></strong>.</p>
+
+<hr>
+
+<h2>What Kinly is</h2>
+<p>Kinly is a family-only ride-sharing and location-sharing app. Members of a household ("a family") share their real-time location with each other, request rides from each other, and receive notifications about each other's arrivals and departures. Every piece of data in Kinly is scoped to the family the user belongs to — no data is shared outside the family unless explicitly described below (e.g. with our infrastructure providers).</p>
+
+<hr>
+
+<h2>Information we collect</h2>
+
+<p>When you use Kinly, we collect the following categories of information:</p>
+
+<h3>Account information</h3>
+<ul>
+  <li>Your email address and password (passwords are stored only as hashed credentials by our authentication provider, Firebase Authentication; we never see or store your password in plain text)</li>
+  <li>Your name and role within the family (Guardian or Child)</li>
+  <li>A profile photo, if you choose to upload one</li>
+</ul>
+
+<h3>Location information</h3>
+<ul>
+  <li>Your device's GPS coordinates (latitude, longitude, accuracy, heading, and speed) collected continuously while location sharing is enabled</li>
+  <li>The time of each location reading</li>
+  <li>Your device's battery level and charging state, recorded alongside each location reading</li>
+  <li>Whether your device is currently inside any of the saved Places (geofences) your family has configured (e.g., Home, School)</li>
+</ul>
+<p>You can pause or stop location sharing at any time in your Kinly profile.</p>
+
+<h3>Family content</h3>
+<ul>
+  <li>Saved Places — addresses your family has labeled (e.g., Home, School, Gym), including the address text, latitude/longitude, and a notification preference per family member per place</li>
+  <li>Ride requests and their lifecycle — pickup and destination addresses, who requested the ride, who claimed it, timestamps, and an optional note</li>
+  <li>Emergency (SOS) alerts — when raised, the alert includes the originator's name and last known coordinates so other family members can respond</li>
+</ul>
+
+<h3>Device and notification information</h3>
+<ul>
+  <li>A push notification token (Firebase Cloud Messaging token) used to deliver real-time notifications to your device</li>
+  <li>Crash diagnostics and basic device metadata (operating system version, app version) collected via Firebase services</li>
+</ul>
+
+<p>We do <strong>not</strong> collect contacts, browsing history, advertising identifiers, microphone or camera access (other than when you choose to take or upload a profile photo), or social media account information.</p>
+
+<hr>
+
+<h2>How we use this information</h2>
+<ul>
+  <li>To show your family where each member currently is, on a live map</li>
+  <li>To notify family members when ride requests are made, claimed, or completed</li>
+  <li>To notify family members when someone arrives at or leaves a saved Place (when you've enabled this)</li>
+  <li>To deliver SOS alerts to other family members during emergencies</li>
+  <li>To compute estimated arrival times between guardians and a pickup point</li>
+  <li>To keep your account secure (authentication, abuse prevention)</li>
+  <li>To diagnose crashes and improve the app</li>
+</ul>
+<p>We do <strong>not</strong> use your information for advertising, profiling, or any commercial purpose outside of operating Kinly.</p>
+
+<hr>
+
+<h2>How information is shared</h2>
+
+<p><strong>Inside your family.</strong> Other members of your family can see your name, profile photo, current location (when sharing is on), battery level, ride requests you've made or claimed, and any SOS alerts you've raised. This is the core function of the app and is required for it to work.</p>
+
+<p><strong>With our infrastructure providers.</strong> We use the following services to operate Kinly. Each is bound by their own privacy practices:</p>
+<ul>
+  <li><strong>Google Firebase</strong> (Authentication, Firestore database, Cloud Messaging, Cloud Functions, Cloud Storage, Analytics) — hosts user accounts, family data, push notifications, and crash diagnostics. See Google's privacy policy at <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</li>
+  <li><strong>Google Maps Platform</strong> — renders the in-app map, geocodes addresses, and computes driving distances/ETAs.</li>
+</ul>
+
+<p><strong>With no one else.</strong> We do not sell, rent, share, or otherwise disclose your information to advertisers, data brokers, marketing affiliates, or any other third party. We do not have any third-party advertising SDKs in the app.</p>
+
+<p><strong>Legal requests.</strong> We may disclose information if required by law, valid legal process, or to protect the safety of users.</p>
+
+<hr>
+
+<h2>Children's privacy</h2>
+
+<p>Kinly is designed for use by families that include children. We rely on the following model for children's accounts:</p>
+<ul>
+  <li>A guardian (a parent or legal guardian, age 18+) creates the family in Kinly first.</li>
+  <li>The guardian invites a child to join by sharing a 6-character invite code generated by the app.</li>
+  <li>A child can only join an existing family using a valid invite code from a guardian — children cannot create their own family from scratch.</li>
+  <li>By generating and sharing the invite code with their child, the guardian provides verifiable parental consent for the child to use Kinly and for the data described in this policy to be collected from the child's device.</li>
+</ul>
+
+<p>A guardian who wishes to review, export, or delete their child's data can do so by:</p>
+<ul>
+  <li>Removing the child's account from the family in the Kinly profile screen, which deletes the child's member record and stops further data collection from that device, OR</li>
+  <li>Emailing us at <a href="mailto:privacy@gokinly.com">privacy@gokinly.com</a> with a request to permanently delete the child's account and associated data — we will action such requests within 30 days.</li>
+</ul>
+
+<p>We do not knowingly allow a child to create a family-creator account. If we learn that a child under 13 has created an account without parental involvement, we will delete that account.</p>
+
+<hr>
+
+<h2>How long we keep your data</h2>
+<ul>
+  <li><strong>Active accounts:</strong> retained for as long as you remain a member of a family.</li>
+  <li><strong>After you leave a family or delete your account:</strong> your member record (name, profile photo, location history, battery readings) is deleted. Ride history and SOS records may be retained by other family members in their own family's history.</li>
+  <li><strong>Backups and logs:</strong> technical backups of our database may retain data for up to 90 days after account deletion before being purged.</li>
+</ul>
+
+<hr>
+
+<h2>Your rights</h2>
+<p>Regardless of where you live, you can:</p>
+<ul>
+  <li><strong>Access</strong> the data we hold about you — email <a href="mailto:privacy@gokinly.com">privacy@gokinly.com</a> to request an export.</li>
+  <li><strong>Correct</strong> your name, email, or profile photo at any time in the Kinly profile screen.</li>
+  <li><strong>Delete</strong> your account and all associated data — email <a href="mailto:privacy@gokinly.com">privacy@gokinly.com</a> or use the in-app "Delete my account" button on the profile screen.</li>
+  <li><strong>Stop sharing your location</strong> at any time using the toggle in the profile screen — Kinly will stop writing location data to our database immediately.</li>
+  <li><strong>Withdraw consent</strong> for any optional processing — including, for guardians, withdrawing consent for a child's account.</li>
+</ul>
+<p>If you are in the European Economic Area, the United Kingdom, or California, you have additional rights under GDPR / UK GDPR / CCPA respectively, including the right to data portability, the right to object to processing, and the right to lodge a complaint with a supervisory authority.</p>
+
+<hr>
+
+<h2>Security</h2>
+<p>We use industry-standard security practices to protect your data:</p>
+<ul>
+  <li>All data in transit is encrypted via TLS (HTTPS).</li>
+  <li>Authentication credentials are managed by Firebase Authentication; we never see plaintext passwords.</li>
+  <li>Database access is restricted by Firestore security rules so that family data can only be read or written by authenticated members of that family.</li>
+  <li>The geofence presence field used for arrival/departure detection can only be written by our backend (a Cloud Function) and is read-only to clients to prevent spoofed events.</li>
+</ul>
+<p>No system is perfectly secure. If we discover a data breach affecting your information, we will notify you and any required regulators in line with applicable laws.</p>
+
+<hr>
+
+<h2>Changes to this policy</h2>
+<p>We may update this policy as Kinly evolves. When we do, we'll change the "Last updated" date at the top. Material changes — for example, collecting a new category of data or sharing data with a new third party — will be communicated to active users in-app or by email.</p>
+
+<hr>
+
+<h2>Contact</h2>
+
+<div class="contact">
+  <p style="margin: 0 0 6px;">For any privacy question, request, or complaint, contact us at:</p>
+  <p style="margin: 0;"><a href="mailto:privacy@gokinly.com">privacy@gokinly.com</a></p>
+</div>
+
+<p style="margin-top: 16px; color: var(--muted); font-size: 14px;">We typically respond within 7 business days and will action verified requests within 30 days.</p>
+
+</main>
+</body>
+</html>
