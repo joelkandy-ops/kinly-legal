@@ -4,7 +4,7 @@ _Last updated: April 28, 2026_
 
 This Privacy Policy explains how Kinly ("we", "us", "the app") collects, uses, and shares information when you use the Kinly mobile application. By creating an account or joining a family in Kinly, you agree to the practices described here.
 
-If you have any questions, contact us at **joel@lyzr.com**.
+If you have any questions, contact us at **privacy@gokinly.com**.
 
 ---
 
@@ -88,7 +88,7 @@ Kinly is designed for use by families that include children. We rely on the foll
 
 A guardian who wishes to review, export, or delete their child's data can do so by:
 - Removing the child's account from the family in the Kinly profile screen, which deletes the child's member record and stops further data collection from that device, OR
-- Emailing us at **joel@lyzr.com** with a request to permanently delete the child's account and associated data — we will action such requests within 30 days.
+- Emailing us at **privacy@gokinly.com** with a request to permanently delete the child's account and associated data — we will action such requests within 30 days.
 
 We do not knowingly allow a child to create a family-creator account. If we learn that a child under 13 has created an account without parental involvement, we will delete that account.
 
@@ -106,9 +106,9 @@ We do not knowingly allow a child to create a family-creator account. If we lear
 
 Regardless of where you live, you can:
 
-- **Access** the data we hold about you — email **joel@lyzr.com** to request an export.
+- **Access** the data we hold about you — email **privacy@gokinly.com** to request an export.
 - **Correct** your name, email, or profile photo at any time in the Kinly profile screen.
-- **Delete** your account and all associated data — email **joel@lyzr.com**.
+- **Delete** your account and all associated data — email **privacy@gokinly.com**.
 - **Stop sharing your location** at any time using the toggle in the profile screen — Kinly will stop writing location data to our database immediately.
 - **Withdraw consent** for any optional processing — including, for guardians, withdrawing consent for a child's account.
 
@@ -139,6 +139,6 @@ We may update this policy as Kinly evolves. When we do, we'll change the "Last u
 
 For any privacy question, request, or complaint, contact us at:
 
-**joel@lyzr.com**
+**privacy@gokinly.com**
 
 We typically respond within 7 business days and will action verified requests within 30 days.
